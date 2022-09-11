@@ -1,0 +1,77 @@
+// =======******====== ABOUT ======******======
+
+#about_part{
+
+    .main_overley{
+        position: relative;
+        z-index: 1;
+
+        &::after{
+            position: absolute;
+            content: '';
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+    }
+
+    .about_img{
+        // padding: 50px 0;
+
+        &::after{
+            background: rgba(0, 0, 0, 0.6);
+        }
+    }
+
+
+    .about_us{
+        padding: 50px 50px;
+        background: rgba(237,232,225,0.95);
+
+        img{
+            position: absolute;
+            margin-left: 120px;
+        }
+
+        .about_text{
+            .first_pera{
+                color: #0a0909;
+                font-size: 15px;
+                font-weight: 600;
+                font-family: 'Nunito Sans', sans-serif;
+                margin-top: 40px;
+            }
+
+            .sec_pera{
+                color: #0a0909;
+                font-size: 15px;
+                font-weight: 600;
+                font-family: 'Nunito Sans', sans-serif;
+                margin-top: 40px;
+            }
+
+            .third_pera{
+                color: #0a0909;
+                font-size: 15px;
+                font-weight: 600;
+                font-family: 'Nunito Sans', sans-serif;
+                margin-top: 40px;
+            }
+
+            h2{
+                color: #0a0909;
+                font-size: 25px;
+                font-weight: 600;
+                font-family: 'Nunito Sans', sans-serif;
+                margin-top: 50px;
+            }
+        }
+    }
+}
+
+
+
+// =======******====== ABOUT ======******======
+

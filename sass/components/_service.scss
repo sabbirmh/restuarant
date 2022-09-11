@@ -1,0 +1,112 @@
+// =======******====== SERVICE ======******======
+
+#serice_part{
+    padding: 50px 0;
+    .container{
+
+        .our_service{
+            h3{
+                color: #cd3131;
+                font-size: 20px;
+                font-weight: 600;
+                font-family: 'Nunito Sans', sans-serif;
+
+                &::before{
+                    position: absolute;
+                    content: '';
+                    right: 469px;
+                    top: 11px;
+                    height: 2px;
+                    width: 35px;
+                    background: #cd3131;
+                }
+            }
+
+            h2{
+                color: #333;
+                font-size: 30px;
+                font-weight: 900;
+                font-family: 'Nunito Sans', sans-serif;
+                position: relative;
+                position: relative;
+
+                span{
+                    color: #cd3131;
+                }
+            }
+        }
+
+        .offer_chart{
+            padding: 20px 40px;
+            background: rgba(253, 245, 230, 0.8);
+            border-radius: 10px;
+            margin-top: 75px;
+
+            .offer_chart_img{
+                width: 90px;
+                img{
+                    margin-left: 45px;
+                    height: 90px;
+                }
+            }
+
+            .wedding_offer{
+                text-align: center;
+                h3{
+                    color: #cd3131;
+                    font-size: 20px;
+                    font-weight: 700;
+                    font-family: 'Nunito Sans', sans-serif;
+                    margin-top: 50px;
+                    margin-left: 3px;
+
+                }
+
+                p{
+                    color: #333;
+                    font-size: 14px;
+                    font-weight: 600;
+                    font-family: 'Nunito Sans', sans-serif;
+                    margin-top: 30px;
+                }
+
+                .read{
+                    a{
+                        color: #333;
+                        font-size: 15px;
+                        font-weight: 400;
+                        font-family: 'Nunito Sans', sans-serif;
+                        margin-top: 20px;
+                        transition: all linear .3s;
+                        i{
+                            margin-left: 10px;
+                            margin-top: 2px;
+                        }
+
+                        &:hover{
+                            color: #cd3131;
+                        }
+                    }
+                }
+            }
+
+
+            .buffet{
+                text-align: center;
+            }
+
+            .home{
+                text-align: center;
+            }
+
+            .pub{
+                text-align: center;
+            }
+            
+        }
+    }
+}
+
+
+
+// =======******====== SERVICE ======******======

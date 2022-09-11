@@ -1,0 +1,86 @@
+// =======******====== PRICE ======******======
+
+#menu_price {
+
+    padding: 40px 0;
+    background: rgba(253, 245, 230, 0.4);
+
+    .container {
+        .price_filter_info {
+            margin-top: 15px;
+        }
+
+        .price_head {
+            h4 {
+                color: #cd3131;
+                font-size: 20px;
+                font-weight: 600;
+                font-family: 'Nunito Sans', sans-serif;
+                margin-top: 15px;
+            }
+
+            h2 {
+                color: #333;
+                font-size: 30px;
+                font-weight: 900;
+                font-family: 'Nunito Sans', sans-serif;
+                margin-top: 10px;
+
+                span {
+                    color: #cd3131;
+                }
+            }
+        }
+
+        .menu_price_part {
+
+            position: relative;
+
+            &::after {
+                position: absolute;
+                content: '';
+                left: 0;
+                bottom: -22px;
+                height: 1px;
+                width: 100%;
+                background: #ddd;
+
+                &:last-child {
+                    display: none;
+                }
+            }
+
+            padding-top: 40px;
+
+            .price_menu_info {
+                h4 {
+                    color: #333;
+                    font-size: 20px;
+                    font-weight: 900;
+                    font-family: 'Nunito Sans', sans-serif;
+                }
+
+                p {
+                    color: #333;
+                    font-size: 14.90px;
+                    font-weight: 600;
+                    font-family: 'Nunito Sans', sans-serif;
+                    margin-top: 10px;
+                }
+            }
+
+            .menu_price {
+                h4 {
+                    color: #cd3131;
+                    font-size: 20px;
+                    font-weight: 900;
+                    font-family: 'Nunito Sans', sans-serif;
+                }
+            }
+        }
+
+    }
+}
+
+
+// =======******====== PRICE ======******======

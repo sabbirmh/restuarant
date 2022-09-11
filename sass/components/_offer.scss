@@ -1,0 +1,168 @@
+// =======******====== OFFER ======******======
+#offer_part {
+    padding: 50px 0;
+    background: rgba(253, 245, 230, 0.4);
+
+
+    .container {
+        .offer_left {
+            .offer_head {
+                h4 {
+                    color: #cd3131;
+                    font-size: 17px;
+                    font-weight: 600;
+                    font-family: 'Nunito Sans', sans-serif;
+
+                  
+
+
+
+                }
+
+                h2 {
+                    color: #333;
+                    font-size: 30px;
+                    font-weight: 900;
+                    font-family: 'Nunito Sans', sans-serif;
+                    position: relative;
+
+                    span {
+                        color: #cd3131;
+                    }
+
+                }
+            }
+        }
+
+
+        .row_now {
+            margin-top: 70px;
+
+            .offer_img {
+                width: 132px;
+
+                img {
+                    height: 114px;
+                    border: 10px solid #f2f2f2;
+                }
+            }
+
+
+            .offer_menu {
+                margin-top: 17px;
+
+                h4 {
+                    color: #cd3131;
+                    font-size: 20px;
+                    font-weight: 600;
+                    font-family: 'Nunito Sans', sans-serif;
+                    letter-spacing: .5px;
+                }
+
+                p {
+                    color: #6b6b6b;
+                    ;
+                    font-size: 14px;
+                    font-weight: 400;
+                    font-family: 'Nunito Sans', sans-serif;
+                    letter-spacing: .5px;
+                    line-height: 22px;
+                    margin-top: 10px;
+                }
+            }
+
+
+            .offer_price {
+                text-align: center;
+                margin-top: 17px;
+                position: relative;
+
+                h3 {
+                    position: absolute;
+                    width: 90px;
+                    height: 90px;
+                    border: 1px solid #ededed;
+                    border-radius: 50%;
+                    line-height: 90px;
+                    color: #333;
+                    font-size: 23px;
+                    font-weight: 600;
+                    font-family: 'Nunito Sans', sans-serif;
+
+                }
+
+            }
+        }
+
+        .now_row {
+            margin-top: 30px;
+        }
+
+
+        .sec_row {
+            margin-top: 30px;
+        }
+
+        .offer_menu_image {
+            margin-top: 85px;
+
+
+        }
+
+
+        .menu_text_offer {
+            position: relative;
+
+            a {
+                position: absolute;
+                left: 232px;
+                bottom: 52px;
+                transform: translate(-50%, -50%);
+                padding: 45px 55px;
+                border: 1px solid #cd3131;
+                background: rgba(237, 237, 237, 0.8);
+                border-radius: 50%;
+                transition: all linear .3s;
+
+                &:hover {
+                    background: #cd3131;
+                    color: #f2f2f2;
+                }
+
+
+
+                .span_first {
+                    color: #cd3131;
+                    font-size: 22px;
+                    font-weight: 400;
+                    font-family: 'Nunito Sans', sans-serif;
+                    display: block;
+                }
+
+                .span_sec {
+                    color: #333;
+                    font-size: 20px;
+                    font-weight: 600;
+                    font-family: 'Nunito Sans', sans-serif;
+                    display: block;
+                    margin-left: 20px;
+                }
+
+                .span_third {
+                    color: #333;
+                    font-size: 20px;
+                    font-weight: 600;
+                    font-family: 'Nunito Sans', sans-serif;
+                    margin-left: 13px;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+// =======******====== OFFER ======******======

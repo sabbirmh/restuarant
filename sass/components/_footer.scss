@@ -1,0 +1,203 @@
+// =======******====== FOOTER ======******======
+
+#footer_part {
+    padding: 40px 0 80px;
+    background: rgba(253, 245, 230, 0.4);
+
+    .footer_left {
+        .left_head {
+            h3 {
+                color: #cd3131;
+                font-size: 22px;
+                font-weight: 900;
+                font-family: 'Nunito Sans', sans-serif;
+                position: relative;
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    left: 0;
+                    bottom: -4px;
+                    width: 126px;
+                    height: 2px;
+                    background: #cd3131;
+
+                }
+
+            }
+
+            p {
+                color: #b1b1b1;
+                font-size: 15px;
+                font-weight: 600;
+                font-family: 'Nunito Sans', sans-serif;
+                margin-top: 40px;
+            }
+        }
+
+        ul {
+            display: flex;
+            margin-top: 25px;
+
+            li {
+                margin-left: 15px;
+
+                a {
+                    i {
+                        padding: 7px 8px;
+                        border: 1px solid #cd3131;
+                        background: #cd3131;
+                        border-radius: 50%;
+                        color: #fff;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer_midone {
+        .midone_head {
+            h3 {
+                color: #cd3131;
+                font-size: 22px;
+                font-weight: 900;
+                font-family: 'Nunito Sans', sans-serif;
+                position: relative;
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    left: 0;
+                    bottom: -4px;
+                    width: 126px;
+                    height: 2px;
+                    background: #cd3131;
+
+                }
+            }
+        }
+
+        ul {
+            margin-top: 40px;
+
+            li {
+
+                a {
+
+                    color: #666;
+                    font-size: 14px;
+                    font-weight: 600;
+                    font-family: 'Nunito Sans', sans-serif;
+                    transition: all linear .3s;
+
+                    &:hover {
+                        color: #cd3131;
+                    }
+
+                    i {
+
+                        margin: 0 20px;
+                        font-size: 14px;
+                        color: #cd3131;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+    .footer_midtwo {
+
+        .midtwo_head {
+            h3 {
+                color: #cd3131;
+                font-size: 22px;
+                font-weight: 900;
+                font-family: 'Nunito Sans', sans-serif;
+                position: relative;
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    left: 0;
+                    bottom: -4px;
+                    width: 74px;
+                    height: 2px;
+                    background: #cd3131;
+
+                }
+            }
+        }
+
+        ul {
+            margin-top: 40px;
+            cursor: pointer;
+            li {
+
+                color: #666;
+                font-size: 14px;
+                font-weight: 600;
+                font-family: 'Nunito Sans', sans-serif;
+                transition: all linear .3s;
+                margin-top: 15px;
+
+                &:hover{
+                    color: #cd3131;
+                }
+
+                span {
+                    margin-left: 22px;
+                }
+
+                i {
+                    margin-right: 10px;
+                    color: #cd3131;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .footer_right{
+
+        .right{
+            margin-top: 20px;
+        }
+
+        .right_head{
+            h3 {
+                color: #cd3131;
+                font-size: 22px;
+                font-weight: 900;
+                font-family: 'Nunito Sans', sans-serif;
+                position: relative;
+
+                &::after {
+                    position: absolute;
+                    content: '';
+                    left: 0;
+                    bottom: -4px;
+                    width: 118px;
+                    height: 2px;
+                    background: #cd3131;
+
+                }
+            }
+        }
+
+
+
+        .foot_img{
+            padding-top: 20px;
+        }
+    }
+
+    
+}
+
+
+
+// =======******====== FOOTER ======******======
